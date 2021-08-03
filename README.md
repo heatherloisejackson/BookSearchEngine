@@ -12,7 +12,7 @@ Below are screenshots of the site.
 ![screenshot1]()
 
 ## Credits
-Thank you to Penn LPS Coding Bootcamp, instructors, peers, [JavaScript](https://www.javascript.com/), [Node.JS](https://nodejs.org/en/), [NPM](https://www.npmjs.com/) and its packages, [React.js](https://reactjs.org/), and [React-Bootstrap](https://react-bootstrap.github.io/).
+Thank you to Penn LPS Coding Bootcamp, instructors, peers, [JavaScript](https://www.javascript.com/), [Node.JS](https://nodejs.org/en/), [NPM](https://www.npmjs.com/) and its packages, [React.js](https://reactjs.org/), and [Express.js](https://expressjs.com/), [MongoDB](https://www.mongodb.com/), [Mongoose](https://mongoosejs.com/), [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) & [Robo3T](https://robomongo.org/), [Apollo Server & GraphQL](https://www.apollographql.com/docs/apollo-server/), and Heroku.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
