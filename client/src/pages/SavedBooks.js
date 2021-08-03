@@ -5,14 +5,15 @@ import { useQuery, useMutation } from "@apollo/client";
 import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 import { GET_ME } from "../utils/queries";
-import { DELETE_BOOK } from "../utils/mutations";
+import { REMOVE_BOOK } from "../utils/mutations";
 
 const SavedBooks = () => {
+
   const { loading, data } = useQuery(GET_ME, {
     fetchPolicy: 'cache-and-network',
   });
 
-  const [deleteBook] = useMutation(DELETE_BOOK);
+  const [deleteBook] = useMutation(REMOVE_BOOK);
 
   if (loading) return <p>Loading</p>;
 
@@ -27,25 +28,17 @@ const SavedBooks = () => {
     }
 
     try {
-      const response = await deleteBook(bookId, token);
+      await deleteBook({
+        variables: { bookId: bookId }
+      });
 
-      if (!response.ok) {
-        throw new Error('something went wrong!');
-      }
-
-      const updatedUser = await response.json();
-      setUserData(updatedUser);
       // upon success, remove book's id from localStorage
       removeBookId(bookId);
+      window.location.reload();
     } catch (err) {
       console.error(err);
     }
   };
-
-  // if data isn't here yet, say so
-  if (!userDataLength) {
-    return <h2>LOADING...</h2>;
-  }
 
   return (
     <>

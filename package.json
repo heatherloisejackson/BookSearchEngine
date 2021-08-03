@@ -1,7 +1,7 @@
 {
   "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full stack MERN application for searching Google Books API with React front end, MongoDB database, and Node.js/Express.js server and API",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
@@ -9,15 +9,12 @@
     "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
   "dependencies": {
-    "apollo-server-express": "^3.1.2",
-    "dotenv": "^10.0.0",
-    "graphql": "^15.5.1"
+    "@apollo/client": "^3.4.4"
   }
 }
