@@ -34,10 +34,11 @@ const resolvers = {
         email: email,
         password: password,
       });
+      console.log(user);
 
       if (!user) return "Something is wrong!";
-
       const token = signToken(user);
+      console.log(token);
 
       return { token, user };
     },
