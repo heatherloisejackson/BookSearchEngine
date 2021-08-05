@@ -9,7 +9,10 @@ This application does not require any installation and can be accessed here: [Go
 
 ## Usage
 Below are screenshots of the site.
-![screenshot1]()
+![screenshot1](https://github.com/heatherloisejackson/BookSearchEngine/blob/main/Screenshots/Screen%20Shot%202021-08-05%20at%2011.48.48%20AM.png)
+![screenshot2](https://github.com/heatherloisejackson/BookSearchEngine/blob/main/Screenshots/Screen%20Shot%202021-08-05%20at%2011.50.28%20AM.png)
+![screenshot3](https://github.com/heatherloisejackson/BookSearchEngine/blob/main/Screenshots/Screen%20Shot%202021-08-05%20at%2011.51.02%20AM.png)
+![screenshot4](https://github.com/heatherloisejackson/BookSearchEngine/blob/main/Screenshots/Screen%20Shot%202021-08-05%20at%2011.56.51%20AM.png)
 
 ## Credits
 Thank you to Penn LPS Coding Bootcamp, instructors, peers, [JavaScript](https://www.javascript.com/), [Node.JS](https://nodejs.org/en/), [NPM](https://www.npmjs.com/) and its packages, [React.js](https://reactjs.org/), and [Express.js](https://expressjs.com/), [MongoDB](https://www.mongodb.com/), [Mongoose](https://mongoosejs.com/), [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) & [Robo3T](https://robomongo.org/), [Apollo Server & GraphQL](https://www.apollographql.com/docs/apollo-server/), and Heroku.
